@@ -1,4 +1,3 @@
 # Binärpräfix
-*Eine Zusammenfassung von René Barthel.*
 
-
+_Eine Zusammenfassung von René Barthel._
