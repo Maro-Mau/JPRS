@@ -92,3 +92,37 @@ Das Oktalsystem, auch als Basis-8-System bekannt, ist ein Zahlensystem, das in d
 4. Programmierung: Obwohl das Oktalsystem in moderner Softwareentwicklung nicht weit verbreitet ist, können Entwickler gelegentlich Oktalzahlen verwenden, um bestimmte Bitmuster oder Konfigurationen darzustellen.
 
 5. Insgesamt ist das Oktalsystem in der IT weniger gebräuchlich geworden, da das Hexadezimalsystem aufgrund seiner einfacheren Umrechnung in das Binärsystem und seiner größeren Kapazität (16 Symbole gegenüber 8) in den meisten Fällen bevorzugt wird. Dennoch hat das Oktalsystem immer noch seine Nische, insbesondere in spezifischen Anwendungen, in denen es historisch verwendet wurde oder wo es aus bestimmten Gründen praktisch ist.
+
+
+## Rechengesezte
+Binär | Dezimal | Hexadezimal | Oktal
+--- | --- | --- | ---
+0 | 0 | 0 | 0
+1 | 1 | 1 | 1
+10 | 2 | 2 | 2
+11 | 3 | 3 | 3
+100 | 4 | 4 | 4
+101 | 5 | 5 | 5
+110 | 6 | 6 | 6
+111 | 7 | 7 | 7
+1000 | 8 | 8 | 10
+1001 | 9 | 9 | 11
+1010 | 10 | A | 12
+
+
+#### Anwendung Duales system
+```
+1 0 1 1 0 1 0 1
+| | | | | | | |
+| | | | | | | 1 = 1
+| | | | | | 0 = 2
+| | | | | 1 = 4
+| | | | 0 = 8
+| | | 1 = 16
+| | 0 = 32
+| 1 = 64
+0 = 128
+----------------
+= 181
+```
+##### Flip Flop
